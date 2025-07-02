@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".user.BookSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.StationDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.StationFilterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.MarkerDraggingActivity"
+            android:exported="false"
+            android:label="Select Lat Long" />
+        <activity
+            android:name=".user.FindStationsActivity"
+            android:exported="false"
+            android:label="Find Stations" />
+        <activity
+            android:name=".user.AddVehicleActivity"
+            android:exported="false"
+            android:label="Add Vehicle" />
+        <activity
+            android:name=".admin.EvStationSlotActivity"
+            android:exported="false"
+            android:label="Add Slot" />
+        <activity
+            android:name=".admin.EvStationSlotsActivity"
+            android:exported="false"
+            android:label="Station Slots" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.ProfileActivity"
+            android:exported="false"
+            android:label="Profile" />
+        <activity
+            android:name=".user.MyBookingsActivity"
+            android:exported="false"
+            android:label="My Bookings" />
+        <activity
+            android:name=".user.VehiclesActivity"
+            android:exported="false"
+            android:label="My Vehicles" />
+        <activity
+            android:name=".admin.EVStationActivity"
+            android:exported="false"
+            android:label="Add Station" />
+        <activity
+            android:name=".admin.UsersActivity"
+            android:exported="false"
+            android:label="App Users" />
+        <activity
+            android:name=".admin.ViewAllBookingActivity"
+            android:exported="false"
+            android:label="All Bookings" />
+        <activity
+            android:name=".admin.EVStationsActivity"
+            android:exported="false"
+            android:label="EV Stations" />
+        <activity
+            android:name=".user.UserHomeActivity"
+            android:exported="false"
+            android:label="User Home" />
+        <activity
+            android:name=".admin.AdminHomeActivity"
+            android:exported="false"
+            android:label="Admin Home" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false"
+            android:label="Registration" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="Login" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

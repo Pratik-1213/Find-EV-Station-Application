@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBF6FB"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200sp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:text="EV Charging Stations"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/holo_green_dark">
+
+    </TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Define action bar text color -->
+        <item name="android:textColorPrimary">@color/actionBarTextColor</item>
+
+        <!-- You can customize other attributes here as needed -->
+    </style>
+
+    <style name="CustomDatePicker" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="android:background">@android:color/white</item>
+        <!-- Text color -->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!-- Add other customizations as needed -->
+    </style>
+
+    <!-- Define your color values -->
+    <color name="colorPrimary">#058482</color>
+    <color name="colorPrimaryDark">#79AF50</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="actionBarTextColor">#FFFFFF</color> <!-- Change this to your desired text color -->
+
+</resources>

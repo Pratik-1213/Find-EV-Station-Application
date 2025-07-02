@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    tools:context=".admin.EvStationSlotActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Slot"
+                android:textStyle="normal"
+                android:textSize="34dp"
+                android:textFontWeight="600"
+                android:textAlignment="center"/>
+
+            <EditText
+                android:id="@+id/etxtVoltage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape"
+                android:hint="Voltage" />
+            <EditText
+                android:id="@+id/etxtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:background="@drawable/shape"
+                android:hint="Price" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/rdEnable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Enable"/>
+                <RadioButton android:id="@+id/rdDisable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Disable"/>
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="15dp"
+                android:onClick="btnSubmitClick"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="Submit" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
