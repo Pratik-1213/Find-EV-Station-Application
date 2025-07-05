@@ -19,11 +19,22 @@
 
 ## 📸 Screenshots
 
-<p float="left">
-  <img src="splash.jpg" alt="Splash Screen" width="200"/>
-  <img src="station.png" alt="Station Screen" width="200"/>
-  <img src="map.png" alt="Map Screen" width="200"/>
+<p align="center">
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/Splash%20Screen%20Image.png" alt="Splash Screen" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/Login%20Page.png" alt="Login Page" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/User%20Home%20Page.png" alt="User Home Page" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/Add%20Stations.png" alt="Add Stations" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/Profile%20View.png" alt="Profile View" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/Book%20Slots.png" alt="Book Slots" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/Admin%20Interface.png" alt="Admin Interface" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/Admin%20View%201.png" alt="Admin View 1" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/Admin%20View%202.png" alt="Admin View 2" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/View%201.png" alt="View 1" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/View%202.png" alt="View 2" width="220" style="margin: 10px;"/>
+  <img src="https://github.com/Pratik-1213/Find-EV-Station-Application/raw/main/View%203.png" alt="View 3" width="220" style="margin: 10px;"/>
 </p>
+
+
 
 ---
 
